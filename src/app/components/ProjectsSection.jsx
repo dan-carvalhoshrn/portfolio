@@ -13,54 +13,54 @@ const projectsData = [
         description: "A promotional page made in HTML, CSS and Vanilla JS for the premiere of Spider-Man No Way Home",
         image: "/images/projects/1.png",
         tag: ["All", "Web"],
-        gitUrl: "",
+        gitUrl: "https://github.com/dan-carvalhoshrn/projeto-spiderman",
         previewUrl: "",
     },
-    {
-        id: 2,
-        title: "Spiderman-app",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquaum, voluptatum.",
-        image: "/images/projects/1.png",
-        tag: ["All", "Web"],
-        gitUrl: "",
-        previewUrl: "",
-    },
-    {
-        id: 3,
-        title: "Spiderman-app",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquaum, voluptatum.",
-        image: "/images/projects/1.png",
-        tag: ["All", "Web"],
-        gitUrl: "",
-        previewUrl: "",
-    },
-    {
-        id: 4,
-        title: "Spiderman-app",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquaum, voluptatum.",
-        image: "/images/projects/1.png",
-        tag: ["All", "Web"],
-        gitUrl: "",
-        previewUrl: "",
-    },
-    {
-        id: 5,
-        title: "Spiderman-app",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquaum, voluptatum.",
-        image: "/images/projects/1.png",
-        tag: ["All", "Web"],
-        gitUrl: "",
-        previewUrl: "",
-    },
-    {
-        id: 6,
-        title: "Spiderman-app",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquaum, voluptatum.",
-        image: "/images/projects/1.png",
-        tag: ["All", "Web"],
-        gitUrl: "",
-        previewUrl: "",
-    },
+    // {
+    //     id: 2,
+    //     title: "Spiderman-app",
+    //     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquaum, voluptatum.",
+    //     image: "/images/projects/1.png",
+    //     tag: ["All", "Web"],
+    //     gitUrl: "",
+    //     previewUrl: "",
+    // },
+    // {
+    //     id: 3,
+    //     title: "Spiderman-app",
+    //     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquaum, voluptatum.",
+    //     image: "/images/projects/1.png",
+    //     tag: ["All", "Web"],
+    //     gitUrl: "",
+    //     previewUrl: "",
+    // },
+    // {
+    //     id: 4,
+    //     title: "Spiderman-app",
+    //     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquaum, voluptatum.",
+    //     image: "/images/projects/1.png",
+    //     tag: ["All", "Web"],
+    //     gitUrl: "",
+    //     previewUrl: "",
+    // },
+    // {
+    //     id: 5,
+    //     title: "Spiderman-app",
+    //     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquaum, voluptatum.",
+    //     image: "/images/projects/1.png",
+    //     tag: ["All", "Web"],
+    //     gitUrl: "",
+    //     previewUrl: "",
+    // },
+    // {
+    //     id: 6,
+    //     title: "Spiderman-app",
+    //     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquaum, voluptatum.",
+    //     image: "/images/projects/1.png",
+    //     tag: ["All", "Web"],
+    //     gitUrl: "",
+    //     previewUrl: "",
+    // },
 ]
 
 const cardVariants = {
@@ -74,7 +74,7 @@ function ProjectsSection() {
     const isInView = useInView(ref, { once: true })
 
     return (
-        <section>
+        <section id='projects'>
             <h2 className='text-center text-4xl font-bold text-white my-4'>
                 My Projects
             </h2>

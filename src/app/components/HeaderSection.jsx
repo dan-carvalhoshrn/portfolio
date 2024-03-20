@@ -41,12 +41,22 @@ const HeaderSection = () => {
                         />
                     </h1>
                     <p className='text-[#ADB7BE] text-base sm:text-lg lf:text-xl mb-6'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquaum, voluptatum.
+                    I&apos;m a software developer passionate about creating innovative solutions for technological challenges.
                     </p>
                     <div>
-                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-600 via-red-500 to-secondary-600 hover:bg-slate-200 text-black'>Hire Me</button>
+                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-600 via-red-500 to-secondary-600 hover:bg-slate-200 text-black'>
+                            <a href="#contact">
+                                Hire Me
+                            </a>
+                        </button>
                         <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-transparent bg-gradient-to-br from-primary-600 via-red-500 to-secondary-600 hover:bg-slate-800 text-white mt-3'>
-                            <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
+                            <a
+                                href="/Daniel_Carvalho_-_Software_Developer.pdf"
+                                download={'DanielCarvalho.pdf'}
+                                className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'
+                            >
+                                Download CV
+                            </a>
                         </button>
                     </div>
                 </motion.div>
