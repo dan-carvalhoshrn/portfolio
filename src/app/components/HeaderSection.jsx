@@ -51,7 +51,7 @@ const HeaderSection = () => {
                         </button>
                         <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-transparent bg-gradient-to-br from-primary-600 via-red-500 to-secondary-600 hover:bg-slate-800 text-white mt-3'>
                             <a
-                                href="/Daniel_Carvalho_-_Software_Developer.pdf"
+                                href="/docs/Daniel_Carvalho_-_Software_Developer.pdf"
                                 download={'DanielCarvalho.pdf'}
                                 className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'
                             >
